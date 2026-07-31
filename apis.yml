@@ -1,7 +1,23 @@
 aid: neo-success
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/neo-success.png
 name: NEO Success
-description: NEO Success is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: NEO Success (operating as NEO Money) was a Bangkok, Thailand personal-finance and
+  money-management fintech founded in 2019 by Punnamas Vichitkulwongsa and backed by 500 Global. It
+  built a consumer platform aimed at helping users reach financial freedom and manage their money. As
+  of this enrichment pass the company is out of business (per PitchBook) and its domain neomoney.com
+  resolves to a parked domain-for-sale page (Afternic/GoDaddy) — there is no live developer portal,
+  documentation, or public API surface to enrich. Surfaced as a 500 Global portfolio lead.
 url: https://raw.githubusercontent.com/api-evangelist/neo-success/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Fintech
+- Personal Finance
+- Money Management
+- Neobank
+- Thailand
+- Defunct
+x-status: out-of-business
+x-website-status: parked-for-sale
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/neo-success-domain-security.yml
 - type: Website
   url: https://neomoney.com
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
