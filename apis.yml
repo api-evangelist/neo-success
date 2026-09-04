@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://neomoney.com', status: 302, note: 'declared website redirects to godaddy.com — a domain sales/parking service, so the domain has lapsed rather than moved to an acquirer (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/neo-success.png
 name: NEO Success
 description: NEO Success (operating as NEO Money) was a Bangkok, Thailand personal-finance and
