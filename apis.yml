@@ -18,19 +18,21 @@ accessModel:
   public: false
   label: Unknown
   confidence: low
-  source: []
+  source:
+  - url: https://neomoney.com
+    status: 302
+    note: declared website redirects to godaddy.com — a domain sales/parking service, so the domain has
+      lapsed rather than moved to an acquirer (probed 2026-09-03, roadmap#169)
   generated: '2026-07-22'
   method: derived
-  source:
-  - {url: 'https://neomoney.com', status: 302, note: 'declared website redirects to godaddy.com — a domain sales/parking service, so the domain has lapsed rather than moved to an acquirer (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/neo-success.png
 name: NEO Success
-description: NEO Success (operating as NEO Money) was a Bangkok, Thailand personal-finance and
-  money-management fintech founded in 2019 by Punnamas Vichitkulwongsa and backed by 500 Global. It
-  built a consumer platform aimed at helping users reach financial freedom and manage their money. As
-  of this enrichment pass the company is out of business (per PitchBook) and its domain neomoney.com
-  resolves to a parked domain-for-sale page (Afternic/GoDaddy) — there is no live developer portal,
-  documentation, or public API surface to enrich. Surfaced as a 500 Global portfolio lead.
+description: NEO Success (operating as NEO Money) was a Bangkok, Thailand personal-finance and money-management
+  fintech founded in 2019 by Punnamas Vichitkulwongsa and backed by 500 Global. It built a consumer platform
+  aimed at helping users reach financial freedom and manage their money. As of this enrichment pass the
+  company is out of business (per PitchBook) and its domain neomoney.com resolves to a parked domain-for-sale
+  page (Afternic/GoDaddy) — there is no live developer portal, documentation, or public API surface to
+  enrich. Surfaced as a 500 Global portfolio lead.
 url: https://raw.githubusercontent.com/api-evangelist/neo-success/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -40,7 +42,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-09-15'
 tags:
 - Company
 - Fintech
@@ -49,7 +51,7 @@ tags:
 - Neobank
 - Thailand
 - Defunct
-x-status: out-of-business
+x-status: defunct
 x-website-status: parked-for-sale
 apis: []
 maintainers:
